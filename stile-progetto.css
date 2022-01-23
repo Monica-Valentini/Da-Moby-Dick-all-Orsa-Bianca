@@ -1,0 +1,207 @@
+/*FONTS*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Roboto&display=swap');
+
+body {
+    background: #B08EA2; padding-top: 50px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container-fluid {
+    background-color: #364d63;
+
+}
+
+.background-blue {
+    background-color: #364d63;
+    color: #ffffff;
+    margin-left: 10px;
+    
+}
+.background-light {
+    background-color: #ffffff !important;
+}
+
+.background-opacity {
+    color: #000000;
+    background-color: #FFFFFF; 
+    border: 1px solid #FFFFFF;
+    border-radius: .25rem;
+    padding: 50px 60px 50px 60px;
+    margin-left: 10px;
+}
+
+
+.background-ortese {
+    background-attachment: fixed; 
+    background-image: url(immagini/Annamariaortese4.png); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    width: 200px;
+}
+
+
+
+/*Breadcrumb*/
+.breadcrumb {
+    background-color: #364d63 !important;
+    color: #ffffff !important;
+}
+.breadcrumb-item {
+    color: #ffffff !important;
+}
+
+/*Nav lista*/
+.nav-tabs a:not(.active) {
+    color: #ff7733;
+}
+
+/*Bottoni*/
+.btn-home {
+    border: 1px inset #00394d !important;
+    border-radius: 5px !important;
+    color: #00394d !important;
+    background-color: #ff9966 !important;
+    border-style: inset;
+   
+}
+.btn-home:hover {
+    background-color: #ff7733 !important;
+    color: #000000 !important;
+}
+
+.btn-lista {
+    border: 1px inset #ff7733 !important;
+    background-color: #364d63 !important;
+    color: #ff7733 !important;
+    border-style: inset;
+    border-radius: 5px !important;
+}
+
+.btn-lista:hover {
+    background-color: #ff7733 !important;
+    color: #000000 !important;
+}
+
+/*Card*/
+
+.card-border:hover {
+    box-shadow:  0 0 10px #ffffff !important;
+    border-color: #000000;
+    border-width: 1,5px;
+}
+
+.card-metadata {
+    height: 700 px !important;
+}
+
+.card-ortese img{
+    height: 350px;
+}
+
+.card-related-item .card-metadata {height: 100px;}
+.card-related-item img {height: 250px;}
+
+.card-text {
+    color: black;
+    height: 300 px;
+}
+
+.card-title {
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-lista img{
+    height: 400px !important;
+
+}
+
+.card-lista .card-metadata {
+    height: 250px;
+}
+ 
+
+.carousel-specific-item {
+    background-color: #bdccdb;
+}
+
+.carousel-specific-item img {
+    background-color: #3A515F; 
+    height: 500px; 
+    width: auto !important;
+}
+
+
+
+h1 {
+    color: #002533 !important;
+    font-family: 'EB Garamond', serif;
+    font-size: 50 px;
+}
+
+h2 {
+    color:  #ff7733 !important;
+    font-family: 'EB Garamond', serif;
+    font-size: 50 px;
+}
+
+h5 {
+    font-size: 20px !important;
+}
+
+.board {
+    border-bottom-color: #ffffff;
+    border-bottom-width: 2px;
+    border-bottom-style: dashed;
+}
+
+.iframe-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link-orange {
+    color: #ff7733 !important;
+}
+
+.link-blue {
+    color: #24248f !important;
+}
+
+.link-libro:hover {
+     text-decoration: underline;
+}
+
+.modal-title {
+    color: #000000 !important;
+}
+
+.modal-body {
+    color: #000000 !important;
+}
+
+.navbar-brand {
+    color: #ff7733 !important;
+    font-family: 'EB Garamond', serif;
+}
+
+.page-link {
+    color: #364d63 !important;
+}
+
+.text-orange {
+    color: #ff7733 !important;
+}
+
+.text-orange-light {
+    color: #ff9966 !important;
+
+}

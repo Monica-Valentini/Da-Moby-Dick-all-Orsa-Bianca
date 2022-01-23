@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:cdwalite="http://www.getty.edu/CDWA/CDWALite/CDWALite-xsd-public-v1-1.xsd" xml:id="DaMobyDickAll'OrsaBianca">
+	<item n="1">
+		<!--identificativo-->
+		<dc:identifier>1500626041</dc:identifier>
+		<cdwalite:recordWrap>
+			<cdwalite:recordID>1500626041</cdwalite:recordID>
+			<cdwalite:recordType>Oggetto d'arte</cdwalite:recordType>
+			<cdwalite:recordSource>Catalogo Generale dei Beni Culturali</cdwalite:recordSource>
+		</cdwalite:recordWrap>
+		<!--titolo opera-->
+		<dc:title>San Girolamo ha la visione degli angeli che suonano le trombe del Giudizio</dc:title>
+		<cdwalite:titleWrap>
+		<cdwalite:titleSet>
+			<cdwalite:title type="translated" lang="it">San Girolamo ha la visione degli angeli che suonano le trombe del Giudizio</cdwalite:title>
+			<cdwalite:sourceTitle>Catalogo Generale dei Beni culturali</cdwalite:sourceTitle>
+		</cdwalite:titleSet>
+		</cdwalite:titleWrap>
+		<!--creator e contributor-->
+		<dc:creator xsi:type="dcterms:viaf" ref="http://viaf.org/viaf/83103470">Jusepe de Ribera detto Spagnoletto</dc:creator>
+		<dc:contributor>Monica Valentini</dc:contributor>
+		<!--fonte-->
+		<dc:source xml:id="CNBC">Catalogo Generale dei Beni Culturali</dc:source> 
+		<!--tipologia item-->
+		<dc:type>Dipinto</dc:type>
+		<cdwalite:objectWorkTypeWrap>
+			<cdwalite:objectWorkType>Dipinto</cdwalite:objectWorkType>
+		</cdwalite:objectWorkTypeWrap>
+
+		<cdwalite:classificationWrap>	
+			<cdwalite:classification>Dipinti</cdwalite:classification>
+		</cdwalite:classificationWrap> 
+		<!--autore del dipinto-->
+		<cdwalite:indexingCreatorWrap>
+		<cdwalite:indexingCreatorSet>
+			<cdwalite:nameCreatorSet> <cdwalite:nameCreator type="personalName" termsource="ULAN" termsourceID="ulan500008521"> Ribera, Jusepe de </cdwalite:nameCreator>
+			</cdwalite:nameCreatorSet>
+			<cdwalite:nationalityCreator>Spanish </cdwalite:nationalityCreator>
+			<cdwalite:vitalDatesCreator birthdate="1591-02-17" deathdate="1652-09-2">1591-1652</cdwalite:vitalDatesCreator>
+			<cdwalite:genderCreator>maschile</cdwalite:genderCreator>
+			<cdwalite:roleCreator termsource="AAT" termsourceID="aat300411314">painter</cdwalite:roleCreator>
+			<cdwalite:attributionQualifierCreator>attribuito a</cdwalite:attributionQualifierCreator>
+		</cdwalite:indexingCreatorSet>
+		</cdwalite:indexingCreatorWrap>
+		<!--data di creazione del dipinto-->
+		<cdwalite:displayCreationDate>1626</cdwalite:displayCreationDate>
+		<!--formato e misure-->
+		<dc:format xsi:type="dcterms:IMT">image/jp2</dc:format>
+		<dc:format>185x133cm</dc:format>
+		<dc:extent>795x1280</dc:extent>
+		<cdwalite:indexingMeasurementsWrap>
+			<cdwalite:indexingMeasurementsSet>
+				<cdwalite:measurementsSet value="185" unit="cm" type="height"> </cdwalite:measurementsSet> 
+				<cdwalite:measurementsSet value="133" unit="cm" type="width"> </cdwalite:measurementsSet>
+			</cdwalite:indexingMeasurementsSet>
+		</cdwalite:indexingMeasurementsWrap>
+		<!--materiale e tecnica-->
+		<cdwalite:indexingMaterialsTechWrap>
+		<cdwalite:indexingMaterialsTechSet>
+			<cdwalite:termMaterialsTech termsource="AAT" termsourceID="300015050">pittura a olio</cdwalite:termMaterialsTech>
+			<cdwalite:termMaterialsTech termsource="AAT" termsourceID="aat300014078">tela</cdwalite:termMaterialsTech>
+		</cdwalite:indexingMaterialsTechSet>
+		</cdwalite:indexingMaterialsTechWrap>
+
+		
+		<!--data della scheda della risorsa-->
+		<dc:date>
+		<dcterms:created>2005</dcterms:created>
+		<dcterms:issued>2005</dcterms:issued>
+		<dcterms:modified>2006</dcterms:modified>
+		<dcterms:modified>2012</dcterms:modified>
+		</dc:date>
+		<!--stile dell'opera-->
+		<cdwalite:styleWrap>
+			<cdwalite:style termsource="AAT" termsourceID="300386054">Caravaggismo</cdwalite:style>
+			<cdwalite:style termsource="AAT" termsourceID="300021147">Barocco</cdwalite:style>
+		</cdwalite:styleWrap>
+		<cdwalite:cultureWrap>
+			<cdwalite:culture termsource="AAT" termsourceID="300386458">Pittura napoletana</cdwalite:culture>
+		</cdwalite:cultureWrap>
+		<!--locazione dipinto-->
+		<cdwalite:locationWrap>
+			<cdwalite:locationSet><cdwalite:locationName type="currentRepository">Museo di Capodimonte (Napoli, Italia) </cdwalite:locationName>
+			</cdwalite:locationSet>
+		</cdwalite:locationWrap>
+
+		<!--coverage-->
+		<dc:coverage>Museo di Capodimonte</dc:coverage>
+
+		<!--provenance-->
+		<dc:provenance>Museo di Capodimonte (Napoli, Italia)</dc:provenance>
+
+		<dc:rights>Proprietà Stato</dc:rights>
+			<cdwalite:rightsWork>Proprietà Stato</cdwalite:rightsWork>
+		<!--classificazione dipinto-->
+		<dc:subject xsi:type="dcterms:UDC">75</dc:subject>	
+		<!--soggetto dipinto-->
+		<dc:subject xsi:type="dcterms:LCSH">sh85096661</dc:subject>
+		<!--soggetto San Girolamo-->
+		<dc:subject xsi:type="dcterms:LCNAF">n79124709</dc:subject>
+		<!--soggetto barocco-->
+		<dc:subject xsi:type="dcterms:UDC">7034</dc:subject>
+		<!--soggetto Sacra Bibbia-->
+		<dc:subject xsi:type="dcterms:LCSH">sh85013576</dc:subject>
+		<!--soggetto santo-->
+		<dc:subject xsi:type="dcterms:UDC">2-36</dc:subject>
+		<!--soggetto Chiesa cattolica Romana-->
+		<dc:subject xsi:type="dcterms:UDC">272</dc:subject>
+	</item>
+</collection>

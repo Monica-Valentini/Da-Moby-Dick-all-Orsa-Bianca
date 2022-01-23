@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--metadati richiesti-->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!--metadati DC-->
+		<meta name="DC.Title" content="Gli autori di Anna Maria Ortese">
+		<meta name="DC.Creator.PersonalName" content="Monica Valentini">
+		<meta name="DC.Creator.PersonalName.Address" content="monica.valentini8@studio.unibo.it">
+		<meta name="DC.Subject" content="collezione digitale">
+		<meta name="DC.Subject" content="opere artistiche, teatrali e letterarie">
+		<meta name="DC.Subject" content="metadatazione">
+		<meta name="DC.Subject" content="Anna Maria Ortese">
+		<meta name="DC.Description" content="Raccolta digitali degli autori e delle opere citati da Anna Maria Ortese nel libro 'Da Moby Dick all'orsa bianca'">
+		<meta name="DC.Publisher" content="Alma Mater Studiorum, Università di Bologna, corso di laurea in Italianistica">
+		<meta name="DC.Date" content="3/11/2021">
+		<meta name="DC.Type" content="Sito web">
+		<meta name="DC.Format" content="HTML/CSS/JS/XML">
+		<meta name="DC.Identifier" href="">
+		<meta name="DC.Source" content="https://storymap.knightlab.com/">
+		<meta name="DC.Language" content="it">
+		<meta name="DC.Rights" content="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+
+		 <!-- favicon -->
+    	<link rel="shortcut icon" href="img/favicon/favicon.ico"/>
+    	<!--foglio di stile css-->
+		<link rel="stylesheet" type="text/css" href="stile-progetto.css">
+		<!--bootstrap CSS-->
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+		<!-- bootstrap icons -->
+    	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+	</head>
+	<body>
+		<header>
+			<!--navbar-->
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+		        <a class="navbar-brand" href="#">Da Moby Dick all'Orsa Bianca</a>
+		        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+		            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		            <span class="navbar-toggler-icon"></span>
+		        </button>
+
+		        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		            <ul class="navbar-nav mr-auto">
+		                <li class="nav-item active">
+		                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+		                </li>
+		                <li class="nav-item">
+        					<a class="nav-link" href="#">Percorri il libro</a>
+      					</li>
+		                <li class="nav-item dropdown">
+		                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+		                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		                        Catalogo
+		                    </a>
+		                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		                        <a class="dropdown-item" href="#">Lista</a>
+		                        <div class="dropdown-divider"></div>
+		                        <a class="dropdown-item" href="#">Capitoli</a>
+		                        <a class="dropdown-item" href="#">Mappa</a>
+		                    </div>
+		                </li>
+		                <li class="nav-item">
+		                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Persone</a>
+		                </li>
+		            </ul>
+		            <form class="form-inline my-2 my-lg-0">
+		                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+		                <button class="btn btn-outline-success btn-home my-2 my-sm-0" type="submit">Search</button>
+		            </form>
+		        </div>
+		    </nav>
+
+		</header>
+		<main>
+			<section class="container-fluid background-blue">
+				<div class="container background-blue">
+					<div class="row">
+						<div class="col-md-12 pt-4 pb-3">
+							<h2 class="text-center text-orange-light">Catalogo Lista</h2>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--breadcrumb e componenti di filtraggio-->
+			<section class="container-fluid background-blue board">
+				
+					<div class="row">
+						<div class="col-md-2">
+							<aside>
+								<nav aria-label="breadcrumb">
+								  <ol class="breadcrumb">
+								    <li class="breadcrumb-item"><a href="index.html" class="link link-orange" title="Torna alla Home">Home</a></li>
+								    <li class="breadcrumb-item active" aria-current="page">Lista</li>
+								  </ol>
+								</nav>
+								<div class="checkbox-container">
+									<h5>Riordina la lista </h5>
+									<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+	  									<div class="btn-group btn-group-sm mr-2" role="group" aria-label="First group">
+	    									<button type="button" class="btn btn-secondary btn-lista"> A - Z</button>
+	    								</div>
+	    								<div class="btn-group btn-group-sm mr-2" role="group" aria-label="Second group">
+	    									<button type="button" class="btn btn-secondary btn-lista">Z - A</button>
+	    								</div>
+	    							</div>
+	    							<div class="btn-toolbar pt-2" role="toolbar" aria-label="Toolbar with button groups">
+	    								<div class="btn-group btn-group-sm mr-2" role="group" aria-label="First group">
+	    									<button type="button" class="btn btn-secondary btn-lista">Ordine cronologico</button>
+	    								</div>
+	    							</div>
+	    							<h5 class="mt-3">Filtra la lista</h5>
+	    							<div class="dropdown dropright">
+									  <button class="btn btn-secondary dropdown-toggle btn-lista" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+									    Autori
+									  </button>
+									  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+									    <input type="checkbox">
+	                                    <label>Baudealaire, Charles</label><br>
+	                                    <input type="checkbox">
+	                                    <label>Bontempelli, Massimo</label><br>
+	                                    <input type="checkbox">
+	                                    <label>Buzzati, Dino</label><br>
+	                                    <input type="checkbox">
+	                                    <label>Cechov, Anton</label><br>
+	                                    <input type="checkbox">
+	                                    <label>De Amicis, Edmondo</label><br>
+	                                    <input type="checkbox">
+	                                    <label>De Filippo, Eduardo</label><br>
+	                                    <input type="checkbox">
+	                                    <label>Del Valle, Ramon</label><br>
+	                                    <input type="checkbox">
+	                                    <label>El Greco</label><br>
+	                                    <input type="checkbox">
+	                                    <label>Frank, Anna</label><br>
+	                                    <input type="checkbox">
+	                                    <label>Gor’ kij, Maxim</label><br>
+	                                    <input type="checkbox">
+	                                    <label>Goya, Francisco</label><br>
+	                                    <input type="checkbox">
+	                                    <label>Hemingway, Ernest</label><br>
+	                                    <input type="checkbox">
+	                                    <label>Leopardi, Giacomo</label><br>
+	                                    <input type="checkbox">
+	                                    <label>Lu Hsun</label><br>
+	                                    <input type="checkbox">
+	                                    <label>Mann Thomas</label><br>
+	                                    <input type="checkbox">
+	                                    <label>Masino, Paola</label><br>
+	                                    <input type="checkbox">
+	                                    <label>Melville, Herman</label><br>
+	                                    <input type="checkbox">
+	                                    <label>Morante, Elsa</label><br>
+	                                    <input type="checkbox">
+	                                    <label>Murillo, Esteban</label><br>
+	                                    <input type="checkbox">
+	                                    <label>Pratolini, Vasco</label><br>
+	                                    <input type="checkbox">
+	                                    <label>Quasimodo, Salvatore</label><br>
+	                                    <input type="checkbox">
+	                                    <label>Ribera, Jusepe de</label><br>
+	                                    <input type="checkbox">
+	                                    <label>Tiziano</label><br>
+	                                    <input type="checkbox">
+	                                    <label>Tintoretto</label><br>
+	                                    <input type="checkbox">
+	                                    <label>Velasquez, Diego</label><br>
+	                                    <input type="checkbox">
+	                                    <label>Veronese, Paolo</label><br>
+									  </div>
+									</div>
+								  	<div class="dropdown dropright pt-2">
+									  <button class="btn btn-secondary dropdown-toggle btn-lista" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+									    Capitoli
+									  </button>
+									  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+									  	<input type="checkbox">
+	                                    <label>I: <cite>Pellegrinaggio alla tomba di Leopardi</cite></label><br>
+	                                    <input type="checkbox">
+	                                    <label>II: <cite>Maestri spagnoli alla mostra di Ginevra</cite></label><br>
+	                                    <input type="checkbox">
+	                                    <label>III: <cite>I capolavori del Prado nel Museo di Ginevra</cite></label><br>
+	                                    <input type="checkbox">
+	                                    <label>IV: <cite>Silenzio di Cechov</cite></label><br>
+	                                    <input type="checkbox">
+	                                    <label>V: <cite>Ritrattino del 'dandy'</cite></label><br>
+	                                    <input type="checkbox">
+	                                    <label>VI: <cite>Ancora silenzio, e «ho parlato in sogno con te, Afrodite»</cite></label><br>
+	                                    <input type="checkbox">
+	                                    <label>VII: <cite>Il male senza nome di uno scrittore d'oggi</cite></label><br>
+	                                    <input type="checkbox">
+	                                    <label>VIII: <cite>Il 'cuore' di De Amicis</cite></label><br>
+	                                    <input type="checkbox">
+	                                    <label>IX: <cite>Un libro che rimane aperto</cite></label><br>
+	                                    <input type="checkbox">
+	                                    <label>X: La sacra famiglia di Pratolini</label><br>
+									  </div>
+									</div>
+									<div class="dropdown dropright pt-2">
+									  <button class="btn btn-secondary dropdown-toggle btn-lista" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+									    Luoghi
+									  </button>
+									  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+									  	<input type="checkbox">
+	                                    <label>America</label><br>
+	                                    <input type="checkbox">
+	                                    <label>Olanda</label><br>
+	                                    <input type="checkbox">
+	                                    <label>Italia</label><br>
+	                                    <input type="checkbox">
+	                                    <label>Francia</label><br>
+	                                    <input type="checkbox">
+	                                    <label>Russia</label><br>
+									  </div>
+									</div>
+								</div>
+							</aside>
+						</div>
+						<div class="col-md-9">
+						 	<div class="row">
+                        		<div class="col-md-12">
+									<ul class="nav nav-tabs">
+									  <li class="nav-item">
+									    <a class="nav-link active" href="#">Tutti</a>
+									  </li>
+									  <li class="nav-item">
+									    <a class="nav-link" href="#">Testi in prosa</a>
+									  </li>
+									  <li class="nav-item">
+									    <a class="nav-link" href="#">Testi in poesia</a>
+									  </li>
+									  <li class="nav-item">
+									    <a class="nav-link" href="#">Opere teatrali</a>
+									  </li>
+									  <li class="nav-item">
+									    <a class="nav-link" href="#">Dipinti</a>
+									  </li>
+									</ul>
+								</div>
+							</div>
+							<!--prima riga di item-->
+							<div class="row">
+								<!--item 1 prima riga-->
+								<div class="col-md-4 mt-4">
+									<div class="card card-border card-lista" style="width: 18rem;">
+									  <img src="immagini/a-silvia-p1_copia.jpg" class="card-img-top" alt="Manoscritto di A Silvia">
+									  <div class="card-body">
+									  	<div class="card-metadata">
+										    <h5 class="card-title">A Silvia</h5>
+										    <p class="card-text">Creatore: <b><a href="http://viaf.org/viaf/12311353" target="_blank" title="Identificativo VIAF di Leopardi, Giacomo" class="link-blue">Leopardi, Giacomo<sup>VIAF</sup></a></b>.</p>
+										    <p class="card-text">Data: <b>1828</b>.</p>
+										    <p class="card-text">Istituzione fornitrice: <b><a href="https://it.wikipedia.org/wiki/Biblioteca_nazionale_Vittorio_Emanuele_III" target="_blank" title="Pagina Wikipedia della Biblioteca nazionale di Napoli Vittorio Emanuele III, Napoli" class="link-blue">Biblioteca nazionale di Napoli, Napoli<sup>Wikipedia</sup></a></b>.</p>          
+										</div>
+										<!--gruppo con bottone con la modale-->
+									    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+											<div class="btn-group mr-2" role="group" aria-label="First group">
+												<a href="item-poesia.html" class="btn btn-home" title="Metadati" target="_blank">Metadati</a>
+											</div>
+											<div class="btn-group mr-2" role="group" aria-label="Second group">
+												<button type="button" class="btn btn-secondary btn-home" data-toggle="modal" data-target="#exampleModal">Leggi dal libro</button>
+    												<!--modale aperta-->
+    												<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+													  <div class="modal-dialog">
+													    <div class="modal-content">
+													      <div class="modal-header">
+													        <h5 class="modal-title" id="exampleModalLabel">Pellegrinaggio alla tomba di Leopardi</h5>
+													        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+													          <span aria-hidden="true">&times;</span>
+													        </button>
+													      </div>
+													      <div class="modal-body">
+													        <p><em>Silvia, rimembri ancora...</em></p>
+													        <p>Mi vengono a mente le sue parole, passano come uccelli in un cielo deserto, tutte, tutte le sue parole di luce, i vocativi affannosi e splendidi, le esclamazioni accorate, quelle frasi ampie e luminose come i giri concentrici del mare turbato da un sassolino; quelle immagini della Natura che dappertutto s'incontrano, specchiano, confondono; e tra fiorire di boschi e apparire di ninfe e raggiar di luna e cantar melodioso s'uccelli, quelle sue riflessioni disperate, che pare imitino talora il basso cupo delle acque o la tristezza delle gocce lunari. Forse nessun uomo più solo e in compagnia di Lui: ché se non c'era un simile che per statura potesse dirglisi amico, in compenso tutta la Natura, i monti, gli spazi interminati, le stelle, i fiori, i colori del giorno e le ombre della notte, gli era intima, e si svegliava commossa alle sue apostrofi ardenti, lo fissava con invisibili occhi pieni d'amore.</p>
+
+													      </div>
+													      <div class="modal-footer">
+													        <button type="button" class="btn btn-secondary" data-dismiss="modal">Chiudi</button>
+													        <button type="button" class="btn btn-primary btn-home">Approfondisci</button>
+													      </div>
+													    </div>
+													  </div>
+													</div>
+    											</div>
+    										</div>
+									  </div>
+									</div>
+								</div>
+								<!--item 2 prima riga-->
+								<div class="col-md-4 mt-4">
+									<div class="card card-border card-lista" style="width: 18rem;">
+									  <img src="immagini/libro-cuore.png" class="card-img-top" alt="Cuore di Edmondo de Amicis">
+									  <div class="card-body">
+									  	<div class="card-metadata">
+										    <h5 class="card-title">Cuore</h5>
+										    <p class="card-text">Creatore:  <b><a href=" http://viaf.org/viaf/56621064"target="_blank" title="Identificativo VIAF di De Amicis, Edmondo" class="link-blue">De Amicis,Edmondo<sup>VIAF</sup></a></b>.</p>
+										    <p class="card-text">Data: <b>1886</b>.</p>
+										    <p class="card-text">Istituzione fornitrice: <b><a href="https://en.wikipedia.org/wiki/Bavarian_State_Library"target="_blank" title="Pagina Wikipedia della Bavarian State Library, Monaco" class="link-blue">Bavarian State Library, Monaco di Baviera<sup>Wikipedia</sup></a></b>.</p>
+										</div>
+										<!--bottoni fissi-->
+										<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+											<div class="btn-group mr-2" role="group" aria-label="First group">
+												<button type="button" class="btn btn-secondary btn-home">Metadati</button>
+											</div>
+											<div class="btn-group mr-2" role="group" aria-label="Second group">
+												<button type="button" class="btn btn-secondary btn-home">Leggi dal libro</button>
+											</div>
+										</div>
+									  </div>
+									</div>
+								</div>
+								<!--prima riga item 3-->
+								<div class="col-md-4 mt-4">
+									<div class="card card-border card-lista" style="width: 18rem;">
+									  <img src="immagini/Velazquez-las_hilanderas-8.jpg" class="card-img-top" alt="Le filatrici">
+									  <div class="card-body">
+									  	<div class="card-metadata">
+										    <h5 class="card-title">Le filatrici</h5>
+										    <p class="card-text">Creatore: <b><a href="http://viaf.org/viaf/76324831" target="_blank" title="Identificativo VIAF di Velázquez, Diego" class="link-blue">Velázquez, Diego<sup>VIAF</sup></a></b>.</p>
+										    <p class="card-text">Data: <b>1657</b>.</p>
+										    <p class="card-text">Istituzione fornitrice: <b><a href="https://it.wikipedia.org/wiki/Museo_del_Prado" target="_blank" title="Pagina Wikipedia del Museo del Prado, Madrid" class="link-blue">Museo del Prado, Madrid<sup>Wikipedia</sup></a></b>.</p>
+										</div>
+										<!--bottoni fissi-->
+										<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+											<div class="btn-group mr-2" role="group" aria-label="First group">
+												<button type="button" class="btn btn-secondary btn-home">Metadati</button>
+											</div>
+											<div class="btn-group mr-2" role="group" aria-label="Second group">
+												<button type="button" class="btn btn-secondary btn-home">Leggi dal libro</button>
+											</div>
+										</div>
+									  </div>
+									</div>
+								</div>
+							</div>
+							<!--seconda riga di item-->
+							<div class="row">
+								<!--item 1 seconda riga-->
+								<div class="col-md-4 mt-4">
+									<div class="card card-border card-lista" style="width: 18rem;">
+									  <img src="immagini/IlGabbiano-5.jpg" class="card-img-top" alt="Le filatrici">
+									  <div class="card-body">
+									  	<div class="card-metadata">
+										    <h5 class="card-title">Il gabbiano</h5>
+										    <p class="card-text">Creatore: <b><a href="http://viaf.org/viaf/95216565" target="_blank" title="Identificativo VIAF di Čechov, Anton Pavlovič" class="link-blue">Čechov, Anton Pavlovič<sup>VIAF</sup></a></b>.</p>
+										    <p class="card-text">Data: <b>1970</b>.</p>
+										    <p class="card-text">Istituzione fornitrice: <b><a href="https://www.einaudi.it/" target="_blank" title="Sito web ufficiale della casa editrice Giulio Einaudi editore" class="link-blue">Giulio Einaudi editore<sup>official site</sup></a></b>.</p>
+										</div>
+										<!--bottoni fissi-->
+										<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+											<div class="btn-group mr-2" role="group" aria-label="First group">
+												<button type="button" class="btn btn-secondary btn-home">Metadati</button>
+											</div>
+											<div class="btn-group mr-2" role="group" aria-label="Second group">
+												<button type="button" class="btn btn-secondary btn-home">Leggi dal libro</button>
+											</div>
+										</div>
+									  </div>
+									</div>
+								</div>
+								<!-- item 2 seconda riga-->
+								<div class="col-md-4 mt-4">
+									<div class="card card-border card-lista" style="width: 18rem;">
+									  <img src="immagini/Leopardi,_Giacomo-6.jpg" class="card-img-top" alt="Giacomo Leopardi">
+									  <div class="card-body">
+									  	<div class="card-metadata">
+										    <h5 class="card-title">Giacomo Leopardi</h5>
+										    <p class="card-text">Attività: <b>poeta</b>.</p>
+										    <p class="card-text">Controllo di autorità: <b><a href="http://viaf.org/viaf/12311353" target="_blank" title="Identificativo VIAF di Leopardi, Giacomo" class="link-blue">Leopardi, Giacomo<sup>VIAF</sup></a></b>.</p>
+										</div>
+										<!--bottoni fissi-->
+										<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+											<div class="btn-group mr-2" role="group" aria-label="First group">
+												<button type="button" class="btn btn-secondary btn-home">Metadati</button>
+											</div>
+											<div class="btn-group mr-2" role="group" aria-label="Second group">
+												<button type="button" class="btn btn-secondary btn-home">Leggi dal libro</button>
+											</div>
+										</div>
+									  </div>
+									</div>
+								</div>
+								<!--item 3 seconda riga-->
+								<div class="col-md-4 mt-4">
+									<div class="card card-border card-lista" style="width: 18rem;">
+									  <img src="immagini/menzogna_e_sortilegio-5.jpg" class="card-img-top" alt="Menzogna e sortilegio">
+									  <div class="card-body">
+									  	<div class="card-metadata">
+										    <h5 class="card-title">Menzogna e sortilegio</h5>
+										    <p class="card-text">Creatore: <b><a href="http://viaf.org/viaf/100159579" target="_blank" title="Identificativo VIAF di Morante, Elsa" class="link-blue">Morante, Elsa<sup>VIAF</sup></a></b>.</p>
+										    <p class="card-text">Data: <b>1948</b>.</p>
+										    <p class="card-text">Istituzione fornitrice: <b><a href="https://www.einaudi.it/" target="_blank" title="Sito web ufficiale della casa editrice Giulio Einaudi editore" class="link-blue">Giulio Einaudi editore<sup>Official site</sup></a></b>.</p>
+										</div>
+										<!--bottoni fissi-->
+										<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+											<div class="btn-group mr-2" role="group" aria-label="First group">
+												<button type="button" class="btn btn-secondary btn-home">Metadati</button>
+											</div>
+											<div class="btn-group mr-2" role="group" aria-label="Second group">
+												<button type="button" class="btn btn-secondary btn-home">Leggi dal libro</button>
+											</div>
+										</div>
+									  </div>
+									</div>
+								</div>
+							</div>
+							<!--terza riga di item-->
+							<div class="row">
+								<!-- item 1 terza riga-->
+								<div class="col-md-4 mt-4">
+									<div class="card card-border card-lista" style="width: 18rem;">
+									  <img src="immagini/José-Ribera-7.jpg" class="card-img-top" alt="Jusepe de Ribera">
+									  <div class="card-body">
+									  	<div class="card-metadata">
+										    <h5 class="card-title">Jusepe de Ribera</h5>
+										    <p class="card-text">Attività: <b>pittore</b>.</p>
+										    <p class="card-text">Controllo di autorità: <b><a href="http://viaf.org/viaf/83103470" target="_blank" title="Identificativo VIAF di Ribera, Jusepe de" class="link-blue">Ribera, Jusepe de<sup>VIAF</sup></a></b>.</p>
+										</div>
+										<!--bottoni fissi-->
+										<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+											<div class="btn-group mr-2" role="group" aria-label="First group">
+												<button type="button" class="btn btn-secondary btn-home">Metadati</button>
+											</div>
+											<div class="btn-group mr-2" role="group" aria-label="Second group">
+												<button type="button" class="btn btn-secondary btn-home">Leggi dal libro</button>
+											</div>
+										</div>
+									  </div>
+									</div>
+								</div>
+								<!--item 2 terza riga-->
+								<div class="col-md-4 mt-4">
+									<div class="card card-border card-lista" style="width: 18rem;">
+									  <img src="immagini/San_Girolamo-5.png" class="card-img-top" alt="San Girolamo">
+									  <div class="card-body">
+									  	<div class="card-metadata">
+										    <h5 class="card-title">San Girolamo ha la visione degli angeli che suonano le trombe del Giudizio</h5>
+										    <p class="card-text">Creatore: <b><a href="http://viaf.org/viaf/83103470" target="_blank" title="Identificativo VIAF di Ribera, Jusepe de" class="link-blue">Ribera, Jusepe de<sup>VIAF</sup></a></b>.</p>
+										    <p class="card-text">Data: <b>1626</b>.</p>
+										    <p class="card-text">Istituzione fornitrice: <b><a href="https://catalogo.beniculturali.it/" target="_blank" title="Sito web ufficiale del Catalogo generale dei Beni Culturali" class="link-blue">Catalogo generale dei Beni Culturali<sup>Official site</sup></a></b>.</p>   										
+										</div>
+										<!--bottoni fissi-->
+										<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+											<div class="btn-group mr-2" role="group" aria-label="First group">
+												<a href="item-dipinto.html" class="btn btn-home" title="Metadati" target="_blank">Metadati</a>
+											</div>
+											<div class="btn-group mr-2" role="group" aria-label="Second group">
+												<button type="button" class="btn btn-secondary btn-home">Leggi dal libro</button>
+											</div>
+										</div>
+									  </div>
+									</div>
+								</div>
+								<!--item 3 terza riga-->
+								<div class="col-md-4 mt-4">
+									<div class="card card-border card-lista" style="width: 18rem;">
+									  <img src="immagini/tonio_kroger-4.jpg" class="card-img-top" alt="Tonio Kroger">
+									  <div class="card-body">
+									  	<div class="card-metadata">
+										    <h5 class="card-title">Tonio Kröger</h5>
+										    <p class="card-text">Creatore: <b><a href="http://viaf.org/viaf/54151065" target="_blank" title="Identificativo VIAF di Mann, Thomas" class="link-blue">Mann, Thomas<sup>VIAF</sup></a></b>.</p>
+										    <p class="card-text">Data: <b>1975</b>.</p>
+										    <p class="card-text">Istituzione fornitrice: <b><a href="https://pim.hu/en" target="_blank" title="Sito web ufficiale del Petőﬁ Literary Museum, Budapest" class="link-blue">Petőﬁ Literary Museum, Budapest<sup>Official site</sup></a></b>.</p>   
+										</div>
+										<!--bottoni fissi-->
+										<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+											<div class="btn-group mr-2" role="group" aria-label="First group">
+												<button type="button" class="btn btn-secondary btn-home">Metadati</button>
+											</div>
+											<div class="btn-group mr-2" role="group" aria-label="Second group">
+												<button type="button" class="btn btn-secondary btn-home">Leggi dal libro</button>
+											</div>
+										</div>
+									  </div>
+									</div>
+								</div>
+							</div>
+							<!--pagination-->
+							<nav aria-label="Page navigation example">
+							  <ul class="pagination pagination-sm justify-content-center mt-5">
+							    <li class="page-item">
+							      <a class="page-link" href="#" aria-label="Previous">
+							        <span aria-hidden="true">&laquo;</span>
+							      </a>
+							    </li>
+							    <li class="page-item active" aria-current="page"><a class="page-link" href="#">1</a></li>
+							    <li class="page-item"><a class="page-link" href="#">2</a></li>
+							    <li class="page-item"><a class="page-link" href="#">3</a></li>
+							    <li class="page-item">
+							      <a class="page-link" href="#" aria-label="Next">
+							        <span aria-hidden="true">&raquo;</span>
+							      </a>
+							    </li>
+							  </ul>
+							</nav>
+						</div>
+					</div>
+			</section>
+		</main>
+		<footer>
+			<section class="container-fluid background-blue">
+				<div class="container background-blue">
+					<div class="row">
+						<div class="col-md-6">
+							<h5 class="pt-3 text-center"><b>Il progetto</b></h5>
+							<p class="text-center text-justify"><em>Da Moby dick all'Orsa Bianca</em> è un progetto nato nell'ambito dell'esame di Digital Humanities e Patrimonio culturale dell'Università di Bologna.
+							</p>
+						</div>
+						<div class="col-md-6">
+							<h5 class="pt-3 text-center"><b>Contatti</b></h5>
+							<p class="text-center">Università di Bologna, Via Zamboni, 33, 40126 Bologna</p>
+							<p class="text-center">Indirizzo e-mail: monica.valentini8@studio.unibo.it</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="container-fluid background-light">
+            	<p class="mb-0 pb-1 pt-1 text-center">© Copyright (c) 2021 Monica Valentini - Progetto di Digital Humanities - Italianistica - Alma Mater Studiorum università di Bologna</p>
+        	</div>
+		</footer>
+		
+		<!--richiamo a Jquery-->
+		 <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+		<!--bootstrap JS-->
+		<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>

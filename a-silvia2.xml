@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it">
+		<teiHeader>
+			<fileDesc>
+				<titleStmt>
+					<title>A Silvia</title>
+					<author xml:id="GiacomoLeopardi">Giacomo Leopardi</author>
+					<respStmt>
+						<resp>trascrizione</resp>
+						<resp>marcatura</resp>
+						<name xml:id="MV">Monica Valentini</name>
+					</respStmt>
+				</titleStmt>
+				<publicationStmt>
+					<publisher>Biblioteca Nazionale Vittorio Emanuele III</publisher>
+					<distributor>Biblioteca Nazionale Vittorio Emanuele III</distributor>
+					<pubPlace>Napoli</pubPlace>
+					<address>
+						<name type="institution">Biblioteca Nazionale Vittorio Emanuele III</name>
+						<street>Piazza del Plebiscito 1</street>
+						<postCode>80132</postCode>
+						<name type="city">Napoli</name>
+						<name type="country">Italia</name>
+					</address>
+					<availability status="restricted">
+						<licence>Tutti i diritti riservati. E' vietata la pubblicazione, su supporti cartacei e digitali, senza autorizzazione.</licence>
+					</availability>
+					<date when="2010-04-29">29/04/2010</date>
+				</publicationStmt>
+				<sourceDesc>
+					<msDesc>
+						<msIdentifier>
+							<country>Italia</country>
+							<settlement>Napoli</settlement>
+							<institution>Biblioteca Nazionale di Napoli</institution>
+							<repository>Biblioteca Nazionale di Napoli</repository>
+							<collection>Carte Leopardi</collection>
+							<idno>C.L.XXI.7a</idno>
+						</msIdentifier>
+						<!--contenuto del documento-->
+						<msContents>
+							<p>Autografo in bella copia della poesia "A Silvia" del poeta Giacomo Leopardi, in cui testo e varianti sono tratti da precedenti stesure.</p>
+						</msContents>
+						<physDesc>
+							<objectDesc form="codex">
+								<supportDesc material="paper">
+									<support>Carta</support>
+									<extent>
+										2 ff.
+										<dimensions unit="mm">
+											<height>170</height>
+											<width>117</width>
+										</dimensions>
+									</extent>
+									<foliation>
+										<p>Numeri di pagina aggiunti a matita dalla Biblioteca Nazionale di Napoli</p>
+									</foliation>
+								</supportDesc>
+								<layoutDesc>
+									<layout columns="2">
+										<p>Il testo si estende per due colonne: nella colonna destra si trova il testo, nella colonna sinistra si trovano eventuali correzioni e/o aggiunte</p>
+									</layout>
+									<layout columns="1">
+										<p>A <locus from="p4" to="p4">pagina 4 del documento</locus> il testo si estende su un'unica colonna</p>
+									</layout>
+								</layoutDesc>
+								<handDesc hands="2">
+									<handNote xml:id="GL" scribe="GiacomoLeopardi" script="handwritten" medium="ink" scope="major">La principale mano del documento, Giacomo Leopardi, autore della poesia
+									</handNote>
+									<handNote xml:id="BNN" scribe="BibliotecaNazionaleNapoli" script="handwritten" medium="pencil" scope="minor">Foliazione e catalogazione della Biblioteca Nazionale di Napoli
+									</handNote>
+								</handDesc>
+							</objectDesc>
+						</physDesc>
+						<history>
+							<origin>
+								<p>Poesia composta a <origPlace>Pisa</origPlace><origDate from="1828-04-19" to="1828-04-20">tra il 19 e il 20 Aprile dell'anno 1828.</origDate></p>
+							</origin>
+							<acquisition>
+								<p>Affidata da <name type="person">Antonio Ranieri</name>tramite lascito testamentario, insieme ad altre carte autografe dell'autore,  alla <name type="institution">Biblioteca Nazionale di Napoli</name>;consegnata ufficialmente nel <date>1907</date>.</p>
+							</acquisition>
+						</history>
+					</msDesc>
+				</sourceDesc>
+			</fileDesc>
+			<!--encoding description-->
+			<encodingDesc>
+				<editorialDecl>
+					<correction>
+						<p>Nessuna correzione è stata apportata al testo autografo</p>
+					</correction>
+					<interpretation>
+						<p>Alcune parole poco chiare e/o cancellate sono state liberamente interpretate</p>
+					</interpretation>
+				</editorialDecl>
+				<projectDesc>
+					<p>Testo trascritto e marcato nel contesto dell'esame di Digital humanities e patrimonio culturale presieduto dalla professoressa Francesca Tomasi</p>
+				</projectDesc>
+				<metDecl>
+					<p>Testo poetico nella forma metrica della canzone libera, composto da sei stanze di diversa lunghezza in cui si alternano settenari ed endecasillabi</p>
+					<metSym value="E" terminal="false">xxxxxxxxx+o</metSym>
+					<metSym value="S" terminal="false">xxxxx+o</metSym>
+					<metSym value="x">accento non metricamente rilevante</metSym>
+					<metSym value="+">accento metricamente rilevante</metSym>
+					<metSym value="o">accento non rilevante</metSym>
+				</metDecl>
+				<interpGrp resp="#MV" type="structuralunit">
+					<desc>figure retoriche</desc>
+					<interp xml:id="apost">apostrofe</interp>
+					<interp xml:id="allit">allitterazione</interp>
+					<interp xml:id="chiasmo">chiasmo</interp>
+					<interp xml:id="meton">metonimia</interp>
+					<interp xml:id="oss">ossimoro</interp>
+				</interpGrp>
+			</encodingDesc>
+		</teiHeader>
+		<text>
+			<pb facs="a-silvia-p1.jpg"/>
+			<body>
+				<fw type="pageNum" place="top-right">1</fw>
+				<fw type="sig" place="bot-left">C.L.XXI.7a</fw>
+				<lg type="canzone" met="S/E/S/E/E/S/S/S/S/E/S/E/E/S/S/E/S/E/E/E/S/E/S/S/E/S/S/S/E/S/S/E/S/S/E/S/E/S/E/E/E/S/S/E/E/E/S/S/E/S/S/S/E/S/S/E/E/E/S/E/E/S">
+					<dateline>
+						<placeName type="city">Pisa</placeName>.
+						<date from="1828-04-19" to="1828-04-20">19. 20. Aprile. 1828.</date>
+					</dateline>
+					<head>A Silvia.</head>
+					<!--prima stanza-->
+					<lg type="stanza" met="S/E/S/E/E/S" rhyme="abcdbd">
+						<l><seg ana="#apost">Silvia</seg>, sovvienti <rhyme label="a">ancora</rhyme></l>
+						<l>Quel tempo de la tua vita <rhyme label="b">mortale</rhyme></l>
+						<l>Quando beltà <rhyme label="c">splende<del rend="crossout">v</del>a</rhyme></l>
+						<subst hand="#GL">
+							<delSpan rend="crossout" resp="#MV" hand="GL" spanTo="#delEnd"/>
+								Ne la fronte e nel <unclear>ven tre</unclear>
+							<add place="margin">Nel volto verginale</add>
+						</subst>
+						<l>
+							<anchor xml:id="delEnd"/>
+							<del rend="crossout">E</del>
+							Ne gli
+							<subst hand="#GL">
+								<del rend="crossout">sguardi incerti</del>
+								<add>occhi tuoi ridenti</add>
+							</subst>
+							e <rhyme label="d" ana="#allit">fuggitivi</rhyme>
+						</l>
+						<addSpan place="margin" hand="#GL" resp="#MV" spanTo="addEnd"/>
+						<div>
+							<l>E negli occhi tuoi molli</l>
+							<l>e <seg ana="#allit">fuggitivi</seg>. dolci, va=
+								<seg>ghi</seg>
+							</l>
+						</div>
+						<anchor xml:id="addEnd"/>
+						<l enjamb="yes">E tu, lieta e
+							<subst hand="#GL" resp="MV">
+								<del rend="crossout">pudica,</del>
+								<add>pensosa,</add>
+							</subst>
+							il <rhyme label="b">limitare</rhyme>
+						</l>
+						<l>Di gioventù <rhyme label="d" ana="allit">salivi?</rhyme></l>
+					</lg>
+					<!--seconda stanza-->
+					<lg type="stanza" met="S/S/S/E/S/E/E/S" rhyme="abcddeeb">
+						<l enjamb="yes">Sonavan le <rhyme label="a">quiete</rhyme></l>
+						<l>Stanze, e le vie <rhyme label="b">dintorno</rhyme>,</l>
+						<l>Al tuo perpetuo <rhyme label="c">canto</rhyme></l>
+						<l>Allor che all'opre femminili <rhyme label="d">intenta</rhyme></l>
+						<l><seg ana="#allit">Sedevi</seg>, assai <rhyme label="d">contenta</rhyme></l>
+						<l><add place="margin" hand="#GL" resp="#MV">dolce.</add>
+							Di quel vago avvenir che in mente <rhyme label="e">a
+							<seg ana="#allit">vevi.</seg></rhyme>
+						</l>
+						<l>Era il maggio odoroso: e tu <rhyme label="e" ana="#allit">solevi</rhyme></l>
+						<l>Così menare il <rhyme label="b">giorno</rhyme>.</l>
+					</lg>
+					<lg type="stanza" met="S/E/S/E/E/E/S/E" rhyme="abcbdeef">
+						<l ana="#chiasmo">
+							<add place="margin" hand="#GL" resp="#MV">lunghi.</add>
+							Io, gli studi
+							<subst hand="#GL" resp="#MV">
+								<del rend="crossout">miei dolci</del>
+								<add><rhyme label="a">leggiadri</rhyme></add>
+							</subst>
+						</l>
+						<l ana="#chiasmo">
+							<add place="margin" hand="#GL" resp="#MV">dilette.</add>
+							Talor lasciando e le <seg ana="#meton">sudate <rhyme label="b">carte</rhyme></seg>, +
+						</l>
+						<addSpan place="margin" hand="#GL" resp="#MV" spanTo="addEnd1"/>
+						<div>
+							<l>+ Ove il tempo mio
+								<seg><rhyme label="c">primo</rhyme></seg>
+							</l>
+							<l>E di me si spendea</l>
+							<l>la miglior <rhyme label="b">parte</rhyme>,</l>
+						</div>
+						<l>
+							<anchor xml:id="addEnd1"/>
+							D'in su i 
+							<subst hand="#GL" resp="#MV">
+								<del rend="crossout">balconi</del>
+								<add place="over">veroni</add>
+							</subst>
+							del paterno <rhyme label="d">ostello</rhyme>
+						</l>
+						<l>Porgea gli orecchi<del rend="crossout" hand="#GL" resp="#MV">o</del> al suo de la tua
+							<seg><rhyme label="e">voce</rhyme>,</seg>
+						</l>
+						<l>Ed a la man <rhyme label="e">veloce</rhyme></l>
+						<l>Che
+							<subst hand="#GL" resp="#MV">
+								<del rend="crossout">percotea</del>
+								<add place="below">percorrea</add>
+							</subst>
+							la <seg ana="#meton">faticosa <rhyme label="f">tela</rhyme></seg>.
+						</l>
+					</lg>
+				</lg>
+			</body>
+		</text>
+	</TEI>
