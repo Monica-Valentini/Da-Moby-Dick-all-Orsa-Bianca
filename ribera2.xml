@@ -65,10 +65,7 @@
 		
 		<!--data della scheda della risorsa-->
 		<dc:date>
-		<dcterms:created>2005</dcterms:created>
-		<dcterms:issued>2005</dcterms:issued>
-		<dcterms:modified>2006</dcterms:modified>
-		<dcterms:modified>2012</dcterms:modified>
+			<dcterms:modified xsi:type="dcterms:W3CDTF">2022</dcterms:modified>
 		</dc:date>
 		<!--stile dell'opera-->
 		<cdwalite:styleWrap>
