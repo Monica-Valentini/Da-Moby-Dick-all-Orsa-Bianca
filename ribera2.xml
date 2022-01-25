@@ -11,10 +11,10 @@
 		<!--titolo opera-->
 		<dc:title>San Girolamo ha la visione degli angeli che suonano le trombe del Giudizio</dc:title>
 		<cdwalite:titleWrap>
-		<cdwalite:titleSet>
-			<cdwalite:title type="translated" lang="it">San Girolamo ha la visione degli angeli che suonano le trombe del Giudizio</cdwalite:title>
-			<cdwalite:sourceTitle>Catalogo Generale dei Beni culturali</cdwalite:sourceTitle>
-		</cdwalite:titleSet>
+			<cdwalite:titleSet>
+				<cdwalite:title type="translated" lang="it">San Girolamo ha la visione degli angeli che suonano le trombe del Giudizio</cdwalite:title>
+				<cdwalite:sourceTitle>Catalogo Generale dei Beni culturali</cdwalite:sourceTitle>
+			</cdwalite:titleSet>
 		</cdwalite:titleWrap>
 		<!--creator e contributor-->
 		<dc:creator xsi:type="dcterms:viaf" ref="http://viaf.org/viaf/83103470">Jusepe de Ribera detto Spagnoletto</dc:creator>
@@ -32,15 +32,16 @@
 		</cdwalite:classificationWrap> 
 		<!--autore del dipinto-->
 		<cdwalite:indexingCreatorWrap>
-		<cdwalite:indexingCreatorSet>
-			<cdwalite:nameCreatorSet> <cdwalite:nameCreator type="personalName" termsource="ULAN" termsourceID="ulan500008521"> Ribera, Jusepe de </cdwalite:nameCreator>
-			</cdwalite:nameCreatorSet>
-			<cdwalite:nationalityCreator>Spanish </cdwalite:nationalityCreator>
-			<cdwalite:vitalDatesCreator birthdate="1591-02-17" deathdate="1652-09-2">1591-1652</cdwalite:vitalDatesCreator>
-			<cdwalite:genderCreator>maschile</cdwalite:genderCreator>
-			<cdwalite:roleCreator termsource="AAT" termsourceID="aat300411314">painter</cdwalite:roleCreator>
-			<cdwalite:attributionQualifierCreator>attribuito a</cdwalite:attributionQualifierCreator>
-		</cdwalite:indexingCreatorSet>
+			<cdwalite:indexingCreatorSet>
+				<cdwalite:nameCreatorSet>
+					<cdwalite:nameCreator type="personalName" termsource="ULAN" termsourceID="ulan500008521"> Ribera, Jusepe de </cdwalite:nameCreator>
+				</cdwalite:nameCreatorSet>
+				<cdwalite:nationalityCreator>Spanish</cdwalite:nationalityCreator>
+				<cdwalite:vitalDatesCreator birthdate="1591-02-17" deathdate="1652-09-2">1591-1652</cdwalite:vitalDatesCreator>
+				<cdwalite:genderCreator>maschile</cdwalite:genderCreator>
+				<cdwalite:roleCreator termsource="AAT" termsourceID="aat300411314">pittore</cdwalite:roleCreator>
+				<cdwalite:attributionQualifierCreator>attribuito a</cdwalite:attributionQualifierCreator>
+			</cdwalite:indexingCreatorSet>
 		</cdwalite:indexingCreatorWrap>
 		<!--data di creazione del dipinto-->
 		<cdwalite:displayCreationDate>1626</cdwalite:displayCreationDate>
@@ -50,16 +51,16 @@
 		<dc:extent>795x1280</dc:extent>
 		<cdwalite:indexingMeasurementsWrap>
 			<cdwalite:indexingMeasurementsSet>
-				<cdwalite:measurementsSet value="185" unit="cm" type="height"> </cdwalite:measurementsSet> 
-				<cdwalite:measurementsSet value="133" unit="cm" type="width"> </cdwalite:measurementsSet>
+				<cdwalite:measurementsSet value="185" unit="cm" type="height">185 cm</cdwalite:measurementsSet> 
+				<cdwalite:measurementsSet value="133" unit="cm" type="width">133 cm</cdwalite:measurementsSet>
 			</cdwalite:indexingMeasurementsSet>
 		</cdwalite:indexingMeasurementsWrap>
 		<!--materiale e tecnica-->
 		<cdwalite:indexingMaterialsTechWrap>
-		<cdwalite:indexingMaterialsTechSet>
-			<cdwalite:termMaterialsTech termsource="AAT" termsourceID="300015050">pittura a olio</cdwalite:termMaterialsTech>
-			<cdwalite:termMaterialsTech termsource="AAT" termsourceID="aat300014078">tela</cdwalite:termMaterialsTech>
-		</cdwalite:indexingMaterialsTechSet>
+			<cdwalite:indexingMaterialsTechSet>
+				<cdwalite:termMaterialsTech termsource="AAT" termsourceID="300015050">pittura a olio</cdwalite:termMaterialsTech>
+				<cdwalite:termMaterialsTech termsource="AAT" termsourceID="aat300014078">tela</cdwalite:termMaterialsTech>
+			</cdwalite:indexingMaterialsTechSet>
 		</cdwalite:indexingMaterialsTechWrap>
 
 		
@@ -86,9 +87,9 @@
 
 		<!--provenance-->
 		<dc:provenance>Museo di Capodimonte (Napoli, Italia)</dc:provenance>
-
+		<!--diritti-->
 		<dc:rights>Proprietà Stato</dc:rights>
-			<cdwalite:rightsWork>Proprietà Stato</cdwalite:rightsWork>
+		<cdwalite:rightsWork>Proprietà Stato</cdwalite:rightsWork>
 		<!--classificazione dipinto-->
 		<dc:subject xsi:type="dcterms:UDC">75</dc:subject>	
 		<!--soggetto dipinto-->
@@ -97,8 +98,6 @@
 		<dc:subject xsi:type="dcterms:LCNAF">n79124709</dc:subject>
 		<!--soggetto barocco-->
 		<dc:subject xsi:type="dcterms:UDC">7034</dc:subject>
-		<!--soggetto Sacra Bibbia-->
-		<dc:subject xsi:type="dcterms:LCSH">sh85013576</dc:subject>
 		<!--soggetto santo-->
 		<dc:subject xsi:type="dcterms:UDC">2-36</dc:subject>
 		<!--soggetto Chiesa cattolica Romana-->
