@@ -160,7 +160,7 @@
 							</subst>
 							il <rhyme label="b">limitare</rhyme>
 						</l>
-						<l>Di gioventù <rhyme label="d" ana="allit">salivi?</rhyme></l>
+						<l>Di gioventù <rhyme label="d" ana="#allit">salivi?</rhyme></l>
 					</lg>
 					<!--seconda stanza-->
 					<lg type="stanza" met="S/S/S/E/S/E/E/S" rhyme="abcddeeb">
